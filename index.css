@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+
+
+.divide{
+  background-image: linear-gradient(90deg, white, black, white);
+  height: 5px;
+  width:65%;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.vivek-img{
+  width:98%;
+  border-radius: 20px;
+}
+.temp-img{
+  width:90%;
+  border-radius: 10px;
+}
+.portfolio{
+  font-family:'McLaren', sans-serif;
+}
+.calltoaction{
+font-family: 'McLaren', cursive;
+}
+.contactbtn{
+  font-family: sans-serif;
+  padding:10px;
+  margin: 15px;
+  border:1px;
+  background-color: darkcyan;
+  color:white;
+  font-weight: 700;
+  box-shadow: 0px 2px 2px 0px silver;
+  border-radius: 20px;
+  transition-duration: 0.2s;
+}
+.contactbtn:hover{
+  font-family: sans-serif;
+  padding:10px;
+  margin: 15px;
+  border:1px;
+  background-color: darkcyan;
+  transform: scale3d(1.5,1.5,1.5);
+  color:white;
+  font-weight: 700;
+  box-shadow: 0px 12px 12px 0px silver;
+  border-radius: 20px;
+}
+.contactbtn:active{
+  font-family: sans-serif;
+  padding:10px;
+  margin: 15px;
+  border:1px;
+  background-color: darkcyan;
+  transform: scale3d(0.5,0.5,0.5);
+  color:white;
+  font-weight: 700;
+  box-shadow: 0px 12px 12px 0px silver;
+  border-radius: 20px;
+}
+
+.youtube-channel-btn{
+  border:1px;
+  background-color: #cd352f;
+  color:white;
+  font-weight: 700;
+  padding:10px;
+  border-radius:50px;
+  transition-duration: 0.3s;
+  box-shadow: 0px 2px 2px 0px silver;
+}
+.youtube-channel-btn:hover{
+  transform:scale(1.1);
+}
+
+
+.simple-info-card-view{
+  font-size: 20px;
+  margin:10px;
+  font-family: Calligraffitti, sans-serif;
+  font-weight: 700;
+}
+.responser-of-cards{
+  padding:10px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+.card{
+  margin:5px;
+  box-shadow: 0px 2px 2px 0px grey;
+  padding:15px;
+}
+.card-img-top{
+  border:1px;
+  border-radius: 10px;
+}
+.card-item{
+  display: block;
+  margin:10px;
+}
+.card-shower{
+  padding:2px;
+  margin:10px;
+}
+.mainsec{
+  margin:15px 15px 15px 15px;
+  border:1px;
+  border-radius: 20px;
+}
+.introductiondiv{
+  border-radius: 20px;
+}
+.thetypritereffect{
+  margin:15px;
+}
+.typewriter h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .20em solid green; /* The typwriter cursor */
+  white-space: wrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation:
+    typing 1.2s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: green; }
+}
+
+
+.youtube-fetcher{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.youmessage{
+  font-family: 'McLaren', sans-serif;
+}
+
+.Videos{
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+}
+@media (max-width:1000px){
+.Videos{
+display:flex;
+flex-direction:column;
+flex-wrap:wrap;
+margin:5px;
+}
+}
+
+@keyframes frameup{
+  0%{
+    transform:scale(1.3);
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+iframe{
+  padding:10px;
+  margin:10px;
+  border-radius:5px;
+  box-shadow:0px 5px 5px 0px silver;
+  transition-duration:0.4s;
+  border:1px;
+  animation: frameup 0.8s ease-in;
+}
+
+iframe:hover{
+  padding:10px;
+  margin:10px;
+  border-radius:5px;
+  box-shadow:0px 10px 10px 0px silver;
+  transform:scale(1.1);
+  border:1px;
+}
